@@ -1,0 +1,208 @@
+// ------------------ Google Font ------------------
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@400;600&family=Poppins:wght@400;600&display=swap');
+// ------------xxx--- Google Font ---xxx------------
+
+
+// ------------- Font Name
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------- Utilites -------------------------------- */
+:root{
+    // --- Fonts
+    --primary-font: 'Poppins', sans-serif;
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    // --- Colors
+    --primary-color: #FF0157;
+    --secondary-color: #EEBF00;
+    --success-color: #14BE44;
+    --fourth-color: #000000;
+
+    --light-color: #F0F0F0;
+    --white-color: #ffffff;
+    --dark-color: #1B4755;
+    --black-color: #000000;
+}
+body{
+    font-family: var(--primary-font);
+}
+.section-heading{
+    font-size: 40px;
+    color: var(--black-color);
+
+    span{
+        color: var(--primary-color);
+        font-size: 55px;
+        font-family: var(--heading-font);
+    }
+}
+.section-paragraph{
+    font-size: 17px;
+    color: var(--black-color);
+    font-family: var(--paragraph-font);
+}
+.my-btn{
+    outline: none;
+    border: none;
+    padding: 7px 40px;
+    text-decoration: none;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+.my-btn:hover{
+    letter-spacing: 2px;
+}
+.btn{
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    letter-spacing: 1px;
+}
+/* --------------------------xxx--- Utilites ---xxx-------------------------- */
+
+
+
+
+// -------------------------------- Header
+header{
+    background: #F0F0F0;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 2px 4px #C4C4C4;
+    padding: 12px 0;
+
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+
+        a{
+            text-decoration: none;
+            color: var(--dark-color);
+            padding: 7px 30px;
+            background: var(--white-color);
+            display: block;
+
+            &.active{
+                background: var(--dark-color);
+                color: var(--white-color);
+            }
+        }
+    }
+}
+// --------------------------xxx--- Header
+
+
+// -------------------------------- Footer
+footer{
+    background: var(--black-color);
+    padding: 15px 0;
+
+    p{
+        color: var(--white-color);
+        font-size: 16px;
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin-bottom: 0;
+
+        span{
+            color: var(--primary-color);
+        }
+    }
+}
+// --------------------------xxx--- Footer
+
+
+
+// -------------------------------- Orders Wrapper
+.orders-wrapper{
+
+    .order{
+        margin: 15px 0;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+        border-radius: 7px;
+        padding: 8px 15px;
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+
+            .manage-order{
+                background: var(--dark-color);
+                color: var(--white-color);
+            }
+
+            .order-status{
+                color: var(--white-color);
+                pointer-events: none;
+            }
+
+            .incomplete{
+                background: var(--primary-color);
+            }
+
+            .complete{
+                background: var(--success-color);
+            }
+        }
+    }
+}
+// --------------------------xxx--- Orders Wrapper
+
+
+
+// -------------------------------- Orders Wrapper
+.manage-order{
+
+    .top-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .order-info{
+
+            h4{
+                font-size: 18px;
+
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .time{
+
+            h3{
+                font-size: 22px;
+
+                span{
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+    .my-btn{
+        background: var(--success-color);
+        color: var(--white-color);
+    }
+}
+// --------------------------xxx--- Orders Wrapper

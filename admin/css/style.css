@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@400;600&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* -------------------------------- Utilites -------------------------------- */
+:root {
+  --primary-font: 'Poppins', sans-serif;
+  --heading-font: 'Oswald', sans-serif;
+  --paragraph-font: 'Montserrat', sans-serif;
+  --primary-color: #FF0157;
+  --secondary-color: #EEBF00;
+  --success-color: #14BE44;
+  --fourth-color: #000000;
+  --light-color: #F0F0F0;
+  --white-color: #ffffff;
+  --dark-color: #1B4755;
+  --black-color: #000000;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+.section-heading {
+  font-size: 40px;
+  color: var(--black-color);
+}
+
+.section-heading span {
+  color: var(--primary-color);
+  font-size: 55px;
+  font-family: var(--heading-font);
+}
+
+.section-paragraph {
+  font-size: 17px;
+  color: var(--black-color);
+  font-family: var(--paragraph-font);
+}
+
+.my-btn {
+  outline: none;
+  border: none;
+  padding: 7px 40px;
+  text-decoration: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.my-btn:hover {
+  letter-spacing: 2px;
+}
+
+.btn {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  letter-spacing: 1px;
+}
+
+/* --------------------------xxx--- Utilites ---xxx-------------------------- */
+header {
+  background: #F0F0F0;
+  border: 1px solid #EEEEEE;
+  -webkit-box-shadow: 0px 2px 4px #C4C4C4;
+          box-shadow: 0px 2px 4px #C4C4C4;
+  padding: 12px 0;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+header ul a {
+  text-decoration: none;
+  color: var(--dark-color);
+  padding: 7px 30px;
+  background: var(--white-color);
+  display: block;
+}
+
+header ul a.active {
+  background: var(--dark-color);
+  color: var(--white-color);
+}
+
+footer {
+  background: var(--black-color);
+  padding: 15px 0;
+}
+
+footer p {
+  color: var(--white-color);
+  font-size: 16px;
+  font-family: var(--paragraph-font);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+footer p span {
+  color: var(--primary-color);
+}
+
+.orders-wrapper .order {
+  margin: 15px 0;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  padding: 8px 15px;
+}
+
+.orders-wrapper .order ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.orders-wrapper .order ul .manage-order {
+  background: var(--dark-color);
+  color: var(--white-color);
+}
+
+.orders-wrapper .order ul .order-status {
+  color: var(--white-color);
+  pointer-events: none;
+}
+
+.orders-wrapper .order ul .incomplete {
+  background: var(--primary-color);
+}
+
+.orders-wrapper .order ul .complete {
+  background: var(--success-color);
+}
+
+.manage-order .top-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.manage-order .top-content .order-info h4 {
+  font-size: 18px;
+}
+
+.manage-order .top-content .order-info h4 span {
+  font-weight: bold;
+}
+
+.manage-order .top-content .time h3 {
+  font-size: 22px;
+}
+
+.manage-order .top-content .time h3 span {
+  color: var(--primary-color);
+}
+
+.manage-order .my-btn {
+  background: var(--success-color);
+  color: var(--white-color);
+}
+/*# sourceMappingURL=style.css.map */

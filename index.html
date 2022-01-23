@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - Kitchen King</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Responsive Style Sheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------- Header ----------------------------- -->
+    <header id="header">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./assets/img/logo.png" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="cart">
+                        <a href="#">
+                            <i class="fas fa-cart-plus"></i> <span>(0)</span>
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <button id="menu-toggle" class="menu-toggle">
+                            <i class="fa fa-bars"></i>
+                            <i class="fa fa-times"></i>
+                        </button>
+                        <ul id="menu-item-wrapper">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menus.html">Menus</a></li>
+                            <li><a href="foods.html">All Foods</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- -----------------------xxx--- Header ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Banner ----------------------------- -->
+    <section class="banner-wrapper">
+        <div class="bg-color">
+            <div class="container">
+                <div class="content-wrapper">
+                    <h1 class="heading">Your Best Foods in Kitchen King Now</h1>
+                    <p>We provide best quality foods in all over germany</p>
+                    <a href="#" class="btn">Online Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Banner ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- About Us ----------------------------- -->
+    <section class="about-us py-4">
+        <div class="container">
+            <h1 class="section-heading"><span>A</span>bout Us</h1>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                        cupiditate eaque, mollitia error laboriosam itaque consequatur dolorem hic,
+                        maiores optio, magnam sit id veritatis sunt dignissimos nulla doloremque iure
+                        sint ducimus delectus facilis corporis tempore? Iste vitae numquam laborum
+                        perspiciatis soluta ipsam ipsa inventore exercitationem accusantium delectus.
+                        Maxime quidem vitae aliquid, eveniet nisi, alias dolor odio velit enim
+                        consectetur sapiente ex quaerat. Reprehenderit error illum aliquam, sunt
+                        necessitatibus ex maxime..
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, inventore
+                        doloribus. Obcaecati, officiis rem commodi odio dolorum blanditiis pariatur,
+                        fugit sint iste reprehenderit soluta molestias. Et architecto natus nihil
+                        explicabo officia, maxime repudiandae? Provident repellendus sint sapiente
+                        numquam! Nulla, ipsa.
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/home-page-about-us-img.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-12">
+                    <a href="#" class="btn my-btn m-auto d-block">More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- About Us ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Our Gallery ----------------------------- -->
+    <section class="our-gallery py-4">
+        <div class="container">
+            <h1 class="text-center section-heading"><span>O</span>ur <span>Ga</span>llery</h1>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/home-page-slider.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/banner-background-img.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/home-page-about-us-img.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Our Gallery ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Our Menu ----------------------------- -->
+    <section class="our-menu py-4">
+        <div class="container">
+            <h1 class="section-heading text-center">our <span>M</span>enu</h1>
+            <p class="text-center section-paragraph">We show our top Menu in the below</p>
+            <div class="row g-5">
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <a href="#" class="box p-3 bg-white">
+                        <img src="./assets/img/menu-item/menu-item-1.png" alt="" class="img-fluid">
+                        <h3 class="title">Special Pasta</h3>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="box p-3 bg-white">
+                        <img src="./assets/img/menu-item/menu-item-2.png" alt="" class="img-fluid">
+                        <h3 class="title">Special Soup</h3>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <a href="#" class="box p-3 bg-white">
+                        <img src="./assets/img/menu-item/menu-item-3.png" alt="" class="img-fluid">
+                        <h3 class="title">Special Salad</h3>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <a href="#" class="box p-3 bg-white">
+                        <img src="./assets/img/menu-item/menu-item-4.png" alt="" class="img-fluid">
+                        <h3 class="title">Special Salad</h3>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <a href="#" class="box p-3 bg-white">
+                        <img src="./assets/img/menu-item/menu-item-5.png" alt="" class="img-fluid">
+                        <h3 class="title">Special Salad</h3>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <a href="#" class="box p-3 bg-white">
+                        <img src="./assets/img/menu-item/menu-item-6.png" alt="" class="img-fluid">
+                        <h3 class="title">Special Salad</h3>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="btn my-btn m-auto d-block mt-4">All Menu Items</a>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Our Menu ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Top Products ----------------------------- -->
+    <section class="our-foods py-4">
+        <div class="container">
+            <h1 class="section-heading text-center">our <span>Top</span> Foods</h1>
+            <div class="row g-5">
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-1.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-2.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-3.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-1.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-2.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-3.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-1.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 box-wrapper">
+                    <div class="box p-3">
+                        <div class="img-box">
+                            <a href="#">
+                                <img src="./assets/img/foods/foods-item-2.png" alt="" class="img-fluid">
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="info-box text-center">
+                            <h2 class="title"><a href="#">Russian Salad</a></h2>
+                            <div class="rating-box">
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star filled"></i>
+                                <i class="fa fa-star unfilled"></i>
+                            </div>
+                            <p class="price">$1.57</p>
+                            <a href="#" class="btn my-btn"><i class="fa fa-cart-plus"></i> Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn my-btn d-block m-auto mt-4">More Food Items</a>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Top Products ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Team Member ----------------------------- -->
+    <section class="team-member py-4">
+        <div class="container">
+            <h1 class="section-heading text-center mb-3"><span>O</span>ur Team <span>M</span>ember</h1>
+            <div class="row g-5">
+                <div class="col-sm-6 col-md-4 col-lg-3 d-flex">
+                    <div class="box">
+                        <img src="./assets/img/team-member/team-member-1.png" alt="" class="img-fluid">
+                        <div class="info text-center">
+                            <h3 class="title">MD. Majed hasan</h3>
+                            <p><span>Manager</span> Of Kitchen King</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 d-flex">
+                    <div class="box">
+                        <img src="./assets/img/team-member/team-member-2.png" alt="" class="img-fluid">
+                        <div class="info text-center">
+                            <h3 class="title">MD. Hashir</h3>
+                            <p><span>Manager</span> Of Kitchen King</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 d-flex">
+                    <div class="box">
+                        <img src="./assets/img/team-member/team-member-3.png" alt="" class="img-fluid">
+                        <div class="info text-center">
+                            <h3 class="title">Bro Babu</h3>
+                            <p><span>CEO</span> Of Kitchen King</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 d-flex">
+                    <div class="box">
+                        <img src="./assets/img/team-member/team-member-4.png" alt="" class="img-fluid">
+                        <div class="info text-center">
+                            <h3 class="title">Faria Rahman</h3>
+                            <p><span>Manager</span> Of Kitchen King</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Team Member ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- News Letter ----------------------------- -->
+    <section class="news-letter py-5 mt-3">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/news-letter-img.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex justify-content-center flex-column">
+                    <h2>Subscribe to Our newsletter</h2>
+                    <p>Lorem Ipsum as their default model text, and a search for
+                        'lorem ipsum' will uncover many web sites still in their infancy.
+                    </p>
+                    <form action="#" method="POST">
+                        <input type="email" placeholder="email@freshmeal.com">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- News Letter ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Testimonial ----------------------------- -->
+    <section class="testimonial py-5 mb-4">
+        <div class="container">
+            <h2 class="text-center section-heading">They <span>S</span>aid About Us</h2>
+            <p class="text-center section-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row g-5 mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="box text-center">
+                        <img src="./assets/img/testimonial/testimonial-1.png" alt="" class="img-fuild">
+                        <p>Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Beatae
+                            sit sint quidem quasi odit totam
+                            veritatis harum nobis? Asperiores
+                            nulla nobis ipsa, tempore
+                            accusantium consequuntur facilis
+                            cum doloribus, similique repellat
+                            facere doloremque. Quasi, cumque
+                            ducimus?
+                        </p>
+                        <span>Bro Babu</span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="box text-center">
+                        <img src="./assets/img/testimonial/testimonial-2.png" alt="" class="img-fuild">
+                        <p>Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Beatae
+                            sit sint quidem quasi odit totam
+                            veritatis harum nobis? Asperiores
+                            nulla nobis ipsa, tempore
+                            accusantium consequuntur facilis
+                            cum doloribus, similique repellat
+                            facere doloremque. Quasi, cumque
+                            ducimus?
+                        </p>
+                        <span>MD. Majed Hasan</span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="box text-center">
+                        <img src="./assets/img/testimonial/testimonial-3.png" alt="" class="img-fuild">
+                        <p>Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Beatae
+                            sit sint quidem quasi odit totam
+                            veritatis harum nobis? Asperiores
+                            nulla nobis ipsa, tempore
+                            accusantium consequuntur facilis
+                            cum doloribus, similique repellat
+                            facere doloremque. Quasi, cumque
+                            ducimus?
+                        </p>
+                        <span>Mahi Afridi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Testimonial ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Contact Us ----------------------------- -->
+    <section class="contact-us my-4">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h2 class="heading text-center">Contact Us</h2>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="./assets/img/phone-icon.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h4>Call Us:</h4>
+                                <p>(+84) 123 456 789</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="./assets/img/email-icon.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h4>E-mail :</h4>
+                                <p>Support@kitchen King.com</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="./assets/img/clock-icon.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h4>Working Hours :</h4>
+                                <p>Mon - Sat (8.00am - 12.00am)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.397554203831!2d90.38157771445549!3d23.733198595351247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b84e57dd8b19%3A0xd66f294182e721e8!2sDhaka%20New%20Market!5e0!3m2!1sen!2sbd!4v1642603694030!5m2!1sen!2sbd"
+                        style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------xxx--- Contact Us ---xxx----------------------- -->
+
+
+    <!-- ----------------------------- Footer ----------------------------- -->
+    <footer id="footer">
+        <div class="container">
+            <p class="text-center">Copyright @ all Right Reserved 2021 By Kitchen King</p>
+        </div>
+    </footer>
+    <!-- -----------------------xxx--- Footer ---xxx----------------------- -->
+
+
+
+    <!-- ---------- jQuery CDN JS file ---------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- ---------- Bootstrap CDN Js File ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- ---------- Main Js File ---------- -->
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
